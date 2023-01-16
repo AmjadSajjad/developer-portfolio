@@ -1,0 +1,141 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+/* Header and Navigation Style */
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 200px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 55px;
+    font-size: 15px;
+
+}
+.text-color{
+    color: #FD6E0A;
+}
+.button{
+    background-color: #FD6E0A;
+    width: 110px;
+    height: 40px;
+    color: blanchedalmond;
+    border-radius: 5px;
+    font-weight: 650;
+    font-size: 12px;
+    border: none;
+    justify-content: center;
+    padding: 15px 15px;
+}
+
+/* Banner Styles */
+.banner{
+    margin: 0 200px;
+    display: flex;
+    align-items: center;
+}
+
+.hello{
+    margin-bottom: 4px;
+    font-weight: 600;
+    font-size: 45px;
+
+
+}
+.dev-name{
+    font-weight: 700;
+    font-size: 85px;
+    width: 500px;
+    height: 50px;
+    margin-top: 0;
+}
+.dev-description{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #757575;
+    margin-bottom: 50px;
+}
+.button-contact{
+    background-color:#FFF8F3;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    color: #FD6E0A;
+    font-weight: 750;
+    font-size: 12px;
+    border: 1px solid #FD6E0A;
+    justify-content: center;
+    padding: 15px 15px;
+
+}
+.header{
+    background-color: #FFF8F3;
+    background-image: url(/images/header_bg.png),url(/images/developer.png);
+    background-repeat: no-repeat;
+    background-position: right bottom,left bottom;
+}
+/* Main Section */
+main{
+    width: 1140px;
+    height: 550px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    border-radius: 5px;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 18px;
+    font-style: normal;
+    color: #757575;
+    margin-bottom: 30px;
+    
+
+}
+.about-section{
+    padding: 120px 150px;
+    text-align: center;
+
+}
+.about-title{
+    margin-bottom: 30px;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.about-info-container{
+    display: flex;
+    justify-content:space-around;
+
+}
+.about-info{
+    margin-left:
+}
+.info-title{
+    font-size: 15px;
+    color: #757575;
+    font-weight: 400;
+
+}
+.info-description{
+    color:#474747;
+    font-weight: 700;
+
+}
